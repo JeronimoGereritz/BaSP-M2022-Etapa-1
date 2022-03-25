@@ -157,25 +157,24 @@
                     CONTACT
                 </p>
             </div>
-            <div>
-                <form action="process.php" method="POST">
-                    <label>NAME</label>
-                    <input type="text" name="name"></input>
-                </form>
-            </div>
-            <div>
-                <form action="process.php" method="POST">
-                    <label>EMAIL</label>
-                    <input type="text" name="EMAIL">
-                </form>
-            </div>
-            <div>
-                <label>Message</label>
-                <textarea name="message"></textarea>
-            </div>
-            <div>
-                <input type="submit" name="submit" value="SEND">
-            </div>
+            <form action="process.php" method="POST">
+                    <legend>
+                        Leave your ingo and we'll get in touch
+                    </legend>
+                <div>
+                    <input type="text" name="name" placeholder="NAME">
+                </div>
+                <div>
+                    <input type="text" name="EMAIL" placeholder="EMAIL">
+                </div>
+                <div>
+                    <label>Message</label>
+                    <textarea name="message"></textarea>
+                </div>
+                <div>
+                    <input type="submit" name="submit" value="SEND">
+                </div>
+            </form>
             
         </section>
 
