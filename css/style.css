@@ -1,0 +1,14 @@
+body{
+
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header{
+    background-color: #539E7D;
+    color: white;
+}
