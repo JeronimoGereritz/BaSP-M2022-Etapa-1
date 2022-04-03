@@ -94,6 +94,32 @@ main section *{
     text-align: center;
 }
 
+#our-job {
+    width: 20%;
+    margin-top: 110px;
+    margin-left: 750px;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    border: 2px solid #aace9b;
+    background-color: #aace9b;
+}
+
+#our-job p {
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.web-picture {
+    width: 80%;
+    display: inline-block;
+}
+
+#functionalities {
+    display: inline;
+}
+
 footer {
     text-align: center;
 }
