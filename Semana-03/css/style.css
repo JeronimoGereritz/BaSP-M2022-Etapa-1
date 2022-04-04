@@ -211,6 +211,30 @@ h4 {
     text-align: left;
 }
 
+
+
+#who-we-are {
+    max-width: 1200px;
+}
+
+#who-we-are h3{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#who-we-are p{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.wbox {
+    border: 1% solid #aace9b;
+    background-color: #aace9b;
+    padding: 5px 33px;
+}
+
 footer {
     text-align: center;
 }
