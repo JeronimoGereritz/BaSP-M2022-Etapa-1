@@ -141,9 +141,42 @@ h4 {
     z-index: 20;
 }
 
-#functionalities a{
-    display: inline;
-    width: 100%;
+#functionalities {
+    max-width: 1200px;
+}
+
+#functionalities h3{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.func {
+    width: 17%;
+    min-height: 188px;
+    float: left;
+    border: 1% solid #aace9b;
+    background-color: #aace9b;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    vertical-align: top;
+    margin: 0 4%;
+    background: rgb(83,158,125);
+    background: linear-gradient(180deg, rgba(83,158,125,1) 65%, rgba(255,255,255,0) 100%);
+}
+
+.func a{
+    display: block;
+    margin-top: 75px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.func2 a{
+    margin-top: 58px;
 }
 
 footer {
