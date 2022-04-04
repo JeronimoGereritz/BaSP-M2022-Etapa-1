@@ -179,6 +179,38 @@ h4 {
     margin-top: 58px;
 }
 
+#functionalities::after {
+    content: "";
+    display: block;
+    clear: both;
+ }
+
+#choosetrackgenix {
+    max-width: 785px;
+    display: block;
+    margin-top: 80px;
+}
+
+#choosetrackgenix h3 {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.ctbox {
+    border: 1% solid #aace9b;
+    background-color: #aace9b;
+    padding: 10px 33px;
+
+}
+
+#choosetrackgenix p, #choosetrackgenix li{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: left;
+}
+
 footer {
     text-align: center;
 }
