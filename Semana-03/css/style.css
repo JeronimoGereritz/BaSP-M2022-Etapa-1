@@ -145,7 +145,7 @@ h4 {
     max-width: 1200px;
 }
 
-#functionalities h3{
+#functionalities h3 {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 24px;
@@ -157,12 +157,15 @@ h4 {
     float: left;
     border: 1% solid #aace9b;
     background-color: #aace9b;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    font-weight: 500;
     vertical-align: top;
     margin: 0 4%;
     background: rgb(83,158,125);
     background: linear-gradient(180deg, rgba(83,158,125,1) 65%, rgba(255,255,255,0) 100%);
+}
+
+.func p{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 500;
 }
 
 .func a{
@@ -179,7 +182,7 @@ h4 {
     margin-top: 58px;
 }
 
-#functionalities::after {
+#functionalities::after, #site-map::after {
     content: "";
     display: block;
     clear: both;
@@ -211,10 +214,79 @@ h4 {
     text-align: left;
 }
 
+#contact {
+    max-width: 550px;
+    display: block;
+    margin-top: 80px
+}
 
+ .contacth3 h3{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+ }
+
+ legend {
+    border: 2px solid #000000;
+    background-color: #ffffff;
+    padding: 23px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #373867
+ }
+
+ #contact form input {
+    width: 100%;
+    max-width: 514px;
+    border: 2px solid;
+    border-top: 0;
+    padding: 16px;
+    margin: 0;
+    display: block;
+    text-align: left;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    background-color: #aace9b;
+}
+
+#contact form textarea {
+    width: 100%;
+    max-width: 514px;
+    border: 2px solid;
+    border-top: 0;
+    padding: 16px;
+    margin: 0;
+    display: block;
+    text-align: left;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    min-height: 220px;
+    background-color: #aace9b;
+}
+
+#contact form .submitbutton input {
+    width: 100%;
+    max-width: 550px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    background-color: #aace9b;
+}
+
+#contact form input::placeholder, #contact form textarea::placeholder {
+color: rgb(0, 0, 0);
+}
 
 #who-we-are {
     max-width: 1200px;
+    display: block;
+    margin-top: 80px
 }
 
 #who-we-are h3{
@@ -235,10 +307,68 @@ h4 {
     padding: 5px 33px;
 }
 
-footer {
-    text-align: center;
+#site-map {
+    max-width: 1150xp;
+    margin-top: 70px;
+    display: block;
+}
+
+.sitemapboxs {
+    width: 19%;
+    min-height: 200px;
+    float: left;
+    border: 1% solid #aace9b;
+    background-color: #aace9b;
+    background: rgb(170,206,155);
+    background: linear-gradient(180deg, rgba(170,206,155,1) 0%, rgba(231,246,225,1) 50%, rgba(170,206,155,1) 100%);
+    margin: 0 7%;
+}
+
+.sh3 h3 {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 24px;
 }
 
+.sitemapboxs h4{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+#site-map a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+#site-map ol{
+    padding-left: 0;
+}
+
+#site-map li{
+    list-style-position: inside;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    line-height: 55px;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+}
+
+footer p{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 10px;
+}
+
+footer img{
+    margin: 0 5px;
+}
