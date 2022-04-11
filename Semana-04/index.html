@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Trackgenix</title>
-     <link rel="stylesheet" type="text/css" href="css/style.css">
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Trackgenix</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css">
+		<link rel="stylesheet" type="text/css" href="css/header.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/footer.css">
     </head>
     <body>
         <header id="main-header">
-            <div class="container">
-                <div id="logo">
-                    <h1>Trackgenix</h1>
-                    <img src="img/minireloj.png" alt="weblogo" width="50" height="50">
-                    <h3>The time is yours, but we help it</h3>
+            <div class="flex-parent">
+                <div class="flex-child logo">
+                    <a><img src="img/trackgenixlogo.png" alt="deskptopandlaptoplogo" width="1200" height="520"></a>
                 </div>
-                <nav id="navbar">
-                    <div class="container">
+                <div class="flex-child navbar">
+                    <nav>
                         <ul>
                             <li><a href="#our-job">OUR JOB</a></li>
                             <li><a href="#functionalities">FUNCTIONALITIES</a></li>
-                            <li><a href="#">WHY US</a></li>
+                            <li><a href="#choosetrackgenix">WHY US</a></li>
                             <li><a href="#contact"> CONTACT US</a></li>
                             <li><a href="#who-we-are">WHO WE ARE</a></li>
                             <li><a href="#site-map">SITE MAP</a></li>
                         </ul>
-                    </div>
-                </nav>
+                    </nav>
+                </div>
+                <!-- <div class="flex-child logomobile">
+                    <a><img src="img/trackgenixlogophone.png" alt="deskptopandlaptoplogo" width="1200" height="520"></a>
+                </div>
+                <div class="flex-child navbarmobile"> -->
             </div>
         </header>
             <aside id="sidebar">
@@ -56,21 +61,21 @@
                 </div>
             </section>
             <section id="functionalities">
-                    <h3>FUNCTIONALITIES</h3>
-                <div class="func">
-                    <a href="#">TIME SHEET</a>
-                </div>
-                <div class="func">
-                    <a href="#">REPORTS</a>
-                </div>
-                <div class="func2">
-                    <div class="func">
-                        <a href="#">RESOURCE</br> MANAGMENT</a>
-                    </div>
-                    <div class="func">
-                        <a href="#">MULTIPLE</br> ROLES</a>
-                    </div>
-                </div>
+                <h3>FUNCTIONALITIES</h3>
+				<div class="flex-parent">
+					<div class="flex-child">
+						<a href="#">TIME SHEET</a>
+					</div>
+					<div class="flex-child">
+						<a href="#">REPORTS</a>
+					</div>
+					<div class="flex-child bigtext">
+						<a href="#">RESOURCE</br> MANAGMENT</a>
+					</div>
+					<div class="flex-child bigtext">
+						<a href="#">MULTIPLE</br> ROLES</a>
+					</div>
+				</div>
             </section>
             <section id="choosetrackgenix">
                         <h3>
@@ -125,8 +130,8 @@
                 <div class="sh3">
                     <h3>SITE MAP</h3>
                 </div>
-                <div class="sitemaplinks">
-                    <div class="sitemapboxs">
+                <div class="flex-parent">
+                    <div class="flex-child">
                         <h4>PRODUCTS</h4>
                             <p>
                                 <ol>
@@ -137,7 +142,7 @@
                                 </ol>
                             </p>
                     </div>
-                    <div class="sitemapboxs">
+                    <div class="flex-child">
                         <h4>COMPANY</h4>
                             <p>
                                 <ol>
@@ -148,7 +153,7 @@
                                 </ol>
                             </p>
                     </div>
-                    <div class="sitemapboxs">
+                    <div class="flex-child">
                         <h4>SUPPORT</h4>
                             <p>
                                 <ol>

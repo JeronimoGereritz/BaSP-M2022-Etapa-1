@@ -1,0 +1,291 @@
+/***********************/
+/* 1st SECTION our-job */
+/***********************/
+#our-job {
+    max-width: 762px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 400;
+}
+
+#our-job p{
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+#our-job .textourjob {
+    width: 98%;
+    display: block;
+    margin: 1%;
+    box-sizing: border-box;
+}   
+
+#our-job .web-picture {
+    width: 10%;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+#our-job .web-picture img {
+    max-height: 145px;
+    width: auto;
+}
+
+#our-job .ourjobbox {
+    border: 2px solid #aace9b;
+    background-color: #aace9b;
+    position:relative;
+    z-index: 20;
+}
+
+@media (max-width: 768px) {
+    
+    }
+
+/*******************************/
+/* 2nd SECTION functionalities */
+/*******************************/
+#functionalities {
+    max-width: 1200px;
+}
+
+#functionalities .flex-parent {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+#functionalities .flex-child {
+	min-width: 17%;
+    min-height: 190px;
+    background-color: #aace9b;
+    vertical-align: top;
+    background: rgb(83,158,125);
+    background: linear-gradient(180deg, rgba(83,158,125,1) 65%, rgba(255,255,255,0) 100%);
+}
+
+#functionalities .flex-child p{
+    font-weight: 500;
+}
+
+#functionalities .flex-child a{
+    display: block;
+    margin-top: 75px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+#functionalities::after, #site-map::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+ 
+@media (max-width: 768px) {
+	#functionalities .flex-parent {
+		flex-direction: column;
+	}
+	
+	#functionalities .flex-child {
+		min-width: 45%;
+        height: 100px;
+        min-height: 0;
+		margin: auto;
+		margin: 20px auto 0;
+	}
+
+    #functionalities .flex-child a{
+        margin-top: 30px;
+    }
+
+    #functionalities .flex-child.bigtext a{
+        margin-top: 15px;    
+    }
+}
+
+ 
+/********************************/
+/* 3rd SECTION choosetrackgenix */
+/********************************/
+#choosetrackgenix {
+    max-width: 785px;
+    display: block;
+}
+
+#choosetrackgenix .ctbox {
+    background-color: #aace9b;
+    padding: 10px 33px;
+
+}
+
+#choosetrackgenix p, #choosetrackgenix li{
+    font-weight: 300;
+    font-size: 24px;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    #choosetrackgenix {
+        max-width: 768px;
+        display: block;
+    }
+    #choosetrackgenix .ctbox {
+        background-color: #aace9b;
+        padding: 10px 33px;
+    }
+    #choosetrackgenix p, #choosetrackgenix li{
+        font-weight: 300;
+        font-size: 30px;
+        text-align: left;
+    }
+    }
+
+/***********************/
+/* 4th SECTION contact */
+/***********************/
+#contact {
+    max-width: 550px;
+    display: block;
+}
+
+#contact legend {
+    border: 2px solid #000000;
+    background-color: #ffffff;
+    padding: 23px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #373867
+}
+
+#contact form input {
+    width: 100%;
+    max-width: 514px;
+    border: 2px solid;
+    border-top: 0;
+    padding: 16px;
+    margin: 0;
+    display: block;
+    text-align: left;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    background-color: #aace9b;
+}
+
+#contact form textarea {
+    width: 100%;
+    max-width: 514px;
+    border: 2px solid;
+    border-top: 0;
+    padding: 16px;
+    margin: 0;
+    display: block;
+    text-align: left;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    min-height: 220px;
+    background-color: #aace9b;
+}
+
+#contact form .submitbutton input {
+    width: 100%;
+    max-width: 550px;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    background-color: #aace9b;
+}
+
+#contact form input::placeholder, #contact form textarea::placeholder {
+color: rgb(0, 0, 0);
+}
+
+/**************************/
+/* 5th SECTION who-we-are */
+/**************************/
+#who-we-are {
+    max-width: 1200px;
+    display: block;
+}
+
+
+#who-we-are p{
+    font-weight: 300;
+    font-size: 24px;
+}
+
+#who-we-are .wbox {
+    border: 1% solid #aace9b;
+    background-color: #aace9b;
+    padding: 5px 33px;
+}
+
+
+/************************/
+/* 6th SECTION site-map */
+/************************/
+#site-map {
+    max-width: 1150xp;
+    display: block;
+}
+
+#site-map .flex-parent {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+#site-map .flex-child {
+    width: 19%;
+    min-height: 200px;
+    border: 1% solid #aace9b;
+    background-color: #aace9b;
+    background: rgb(170,206,155);
+    background: linear-gradient(180deg, rgba(170,206,155,1) 0%, rgba(231,246,225,1) 50%, rgba(170,206,155,1) 100%);
+    margin: 0 7%;
+}
+
+
+@media (max-width: 768px) {
+	#site-map .flex-parent {
+		flex-direction: column;
+	}
+	
+	#site-map .flex-child {
+		min-width: 45%;
+		margin: 20px auto 0;
+	}
+}
+
+#site-map .flex-child h4{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+#site-map a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+#site-map ol{
+    padding-left: 0;
+}
+
+#site-map li{
+    list-style-position: inside;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 55px;
+}
