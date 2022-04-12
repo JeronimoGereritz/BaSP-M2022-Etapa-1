@@ -65,7 +65,7 @@
 }
 
 #main-header img{
-    display: inline;
+    display: block;
     max-width: 300px;
     height: auto;
 
@@ -78,6 +78,11 @@
     color: #373867;
 }
 
+#main-header .logomobile{
+    display:none;
+}
+
+
 @media (max-width: 768px) {
     #main-header .logo{
         display: none;
@@ -87,8 +92,12 @@
         display: none;
     }
 
-    #main-header .logomobile{
+    #main-header .flex-parent{
+        justify-content: center;
+    }
 
+    #main-header .logomobile{
+        display: inherit;
     }
 
     #main-header .navbarmobile{
