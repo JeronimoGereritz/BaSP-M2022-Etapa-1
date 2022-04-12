@@ -8,32 +8,29 @@
     text-align: center;
     font-weight: 400;
 }
-
 #our-job p{
     max-width: 400px;
-    margin: 0 auto;
+    text-align: center;
+	margin: 0 auto;
     margin-bottom: 30px;
 }
-
 #our-job .textourjob {
     width: 98%;
     display: block;
     margin: 1%;
     box-sizing: border-box;
 }   
-
 #our-job .web-picture {
-    width: 10%;
-    display: inline-block;
     position: absolute;
-    right: 0;
-    top: 10px;
+    right: 5px;
+    top: 5px;
+    width: 45px;
+    height: 155px;
+    background-image: url(../img/relojweb.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
 }
-#our-job .web-picture img {
-    max-height: 145px;
-    width: auto;
-}
-
 #our-job .ourjobbox {
     border: 2px solid #aace9b;
     background-color: #aace9b;
@@ -42,8 +39,25 @@
 }
 
 @media (max-width: 768px) {
-    
-    }
+    #our-job .web-picture {
+	right: 5px;
+	top: 2px;
+	}
+	#our-job h4 {
+    font-weight: 500;
+    font-size: 23px;
+    margin: 15px 50px;
+    margin-top: 3%;
+	}
+	#our-job p {
+    max-width: 290px;
+    text-align: center;
+    margin: 0 auto 30px;
+	}
+	#our-job .ourjobbox {
+    min-height: 160px;
+	}
+}
 
 /*******************************/
 /* 2nd SECTION functionalities */
@@ -51,7 +65,6 @@
 #functionalities {
     max-width: 1200px;
 }
-
 #functionalities .flex-parent {
     display: flex;
     justify-content: space-around;
@@ -59,7 +72,6 @@
     align-content: center;
     align-items: center;
 }
-
 #functionalities .flex-child {
 	min-width: 17%;
     min-height: 190px;
@@ -68,11 +80,9 @@
     background: rgb(83,158,125);
     background: linear-gradient(180deg, rgba(83,158,125,1) 65%, rgba(255,255,255,0) 100%);
 }
-
 #functionalities .flex-child p{
     font-weight: 500;
 }
-
 #functionalities .flex-child a{
     display: block;
     margin-top: 75px;
@@ -81,7 +91,6 @@
     font-weight: 700;
     font-size: 22px;
 }
-
 #functionalities::after, #site-map::after {
     content: "";
     display: block;
@@ -92,7 +101,6 @@
 	#functionalities .flex-parent {
 		flex-direction: column;
 	}
-	
 	#functionalities .flex-child {
 		min-width: 45%;
         height: 100px;
@@ -100,11 +108,9 @@
 		margin: auto;
 		margin: 20px auto 0;
 	}
-
     #functionalities .flex-child a{
         margin-top: 30px;
     }
-
     #functionalities .flex-child.bigtext a{
         margin-top: 15px;    
     }
@@ -118,13 +124,11 @@
     max-width: 785px;
     display: block;
 }
-
 #choosetrackgenix .ctbox {
     background-color: #aace9b;
     padding: 10px 33px;
 
 }
-
 #choosetrackgenix p, #choosetrackgenix li{
     font-weight: 300;
     font-size: 24px;
@@ -154,7 +158,6 @@
     max-width: 550px;
     display: block;
 }
-
 #contact legend {
     border: 2px solid #000000;
     background-color: #ffffff;
@@ -163,7 +166,6 @@
     font-size: 20px;
     color: #373867
 }
-
 #contact form input {
     width: 100%;
     max-width: 514px;
@@ -178,7 +180,6 @@
     color: black;
     background-color: #aace9b;
 }
-
 #contact form textarea {
     width: 100%;
     max-width: 514px;
@@ -194,7 +195,6 @@
     min-height: 220px;
     background-color: #aace9b;
 }
-
 #contact form .submitbutton input {
     width: 100%;
     max-width: 550px;
@@ -203,7 +203,6 @@
     text-align: center;
     background-color: #aace9b;
 }
-
 #contact form input::placeholder, #contact form textarea::placeholder {
 color: rgb(0, 0, 0);
 }
@@ -215,19 +214,15 @@ color: rgb(0, 0, 0);
     max-width: 1200px;
     display: block;
 }
-
-
 #who-we-are p{
     font-weight: 300;
     font-size: 24px;
 }
-
 #who-we-are .wbox {
     border: 1% solid #aace9b;
     background-color: #aace9b;
     padding: 5px 33px;
 }
-
 
 /************************/
 /* 6th SECTION site-map */
@@ -236,7 +231,6 @@ color: rgb(0, 0, 0);
     max-width: 1150xp;
     display: block;
 }
-
 #site-map .flex-parent {
     display: flex;
     justify-content: space-around;
@@ -244,7 +238,6 @@ color: rgb(0, 0, 0);
     align-content: center;
     align-items: center;
 }
-
 #site-map .flex-child {
     width: 19%;
     min-height: 200px;
@@ -254,38 +247,41 @@ color: rgb(0, 0, 0);
     background: linear-gradient(180deg, rgba(170,206,155,1) 0%, rgba(231,246,225,1) 50%, rgba(170,206,155,1) 100%);
     margin: 0 7%;
 }
-
-
-@media (max-width: 768px) {
-	#site-map .flex-parent {
-		flex-direction: column;
-	}
-	
-	#site-map .flex-child {
-		min-width: 45%;
-		margin: 20px auto 0;
-	}
-}
-
-#site-map .flex-child h4{
-    font-weight: 700;
-    font-size: 24px;
-}
-
 #site-map a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-weight: 400;
     font-size: 24px;
 }
-
 #site-map ol{
     padding-left: 0;
 }
-
 #site-map li{
     list-style-position: inside;
     font-size: 24px;
     font-weight: 400;
     line-height: 55px;
+}
+
+@media (max-width: 768px) {
+	#site-map .flex-parent {
+		flex-direction: column;
+	}
+	#site-map .flex-child {
+		min-width: 45%;
+		margin: 20px auto 0;
+	}
+	#site-map li {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 43px;
+	}
+	#site-map a {
+    font-size: 21px;
+	}
+}
+
+#site-map .flex-child h4{
+    font-weight: 700;
+    font-size: 24px;
 }

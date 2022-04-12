@@ -8,7 +8,6 @@
     width: 100%;
     display: block;
 }
-
 #main-header .flex-parent{
 	display: flex;
 	flex-direction: row;
@@ -17,7 +16,6 @@
 	align-content: center;
     max-height: 127px;
 }
-
 .flex-child.navbar {
     flex-grow: 32;
     display: flex;
@@ -25,29 +23,24 @@
     align-content: space-around;
     align-items: center;
 }
-
 #main-header .logo{
 	max-width: 80%;
     max-height: 127px;
     margin: 0;
 }
-
 #main-header .navbar {
     margin-left: 0;
     max-width: 80%;
     margin-right: 45px;
 }
-
 #main-header .navbar ul{
     padding: 0;
     list-style: none;
 }
-
 #main-header .navbar li{
     display:inline;
     margin-left: 20px;
 }
-
 #main-header .navbar ul li a{
     color: white;
     text-decoration: none;
@@ -55,61 +48,70 @@
     font-weight: 500;
     padding-left: 0px;
 }
-
 #main-header .navbar ul li a:hover{
     color: #000000;
 }
-    
 #main-header .navbar ul li a:active{
     color: #000000;
 }
-
 #main-header img{
     display: block;
     max-width: 300px;
     height: auto;
-
 }
-
 #main-header h3{
     margin: 2px 0;
     font-weight: 400;
     font-size: 20px;
     color: #373867;
 }
-
-#main-header .logomobile{
-    display:none;
+#main-header .logomobile {
+	display: none;
 }
 
-
 @media (max-width: 768px) {
-    #main-header .logo{
-        display: none;
-    }
-
-    #main-header .navbar{
-        display: none;
-    }
-
-    #main-header .flex-parent{
-        justify-content: center;
-    }
-
-    #main-header .logomobile{
-        display: inherit;
-    }
-
-    #main-header .navbarmobile{
-        position: absolute;
-        width: 50px;
-        height: 50px;
-        top: 15px;
-        left: 25px;
-        background-image: url("../img/hamburger.png");
-        background-repeat: no-repeat;
-        background-size: 100%;
-        background-position: center center;
-        z-index: 99;
-    }
+	#main-header .flex-parent{
+		justify-content: center
 	}
+    #main-header .logomobile{
+		display: inherit;
+    }
+	#main-header .logo, #main-header .navbar{
+		display: none;
+	}	
+    #main-header .navbarmobile{
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		top: 15px;
+		left: 20px;
+		background-image: url("../img/hamburger.png");
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: center center;
+		z-index: 99;
+	}
+}
+aside#sidebar {
+    position: absolute;
+    left: 0px;
+    width: 110px;
+    top: 123px;
+    min-height: 150px;
+    background-color: #aace9b;
+    vertical-align: top;
+    background: rgb(83,158,125);
+    background: linear-gradient(0deg, rgba(83,158,125,1) 65%, rgba(255,255,255,0) 100%);
+    padding-top: 31px;
+}
+aside#sidebar a {
+    display: block;
+    line-height: 42px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+}
+aside#sidebar a:first-child {
+    text-transform: uppercase;
+}
