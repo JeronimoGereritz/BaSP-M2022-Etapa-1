@@ -91,6 +91,9 @@
 		background-position: center center;
 		z-index: 99;
 	}
+    .sidebar {
+        display: hidden;
+    }
 }
 aside#sidebar {
     position: absolute;
