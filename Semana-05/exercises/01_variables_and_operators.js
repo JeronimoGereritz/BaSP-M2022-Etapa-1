@@ -7,15 +7,15 @@ console.log(manzanasMasNaranjas);
 
 /*** */
 
-var Omar = "Omar ama a"
-var Monica = "Monica"
+var Omar = "Omar ama a";
+var Monica = "Monica";
 
-console.log(Omar, Monica)
+console.log(Omar, Monica);
 
 
 /*** */
 
-var Ammo = "Ammunition"
-var Ar = "Assault Rifle"
+var Ammo = "Ammunition";
+var Ar = "Assault Rifle";
 
-console.log(Ammo.length, Ar.length)
+console.log(Ammo.length, Ar.length);
