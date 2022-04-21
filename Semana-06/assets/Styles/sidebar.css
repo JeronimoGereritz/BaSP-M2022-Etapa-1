@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+    .sidebar {
+        display: hidden;
+    }
+}
+aside#sidebar {
+    position: absolute;
+    left: 0px;
+    width: 110px;
+    top: 123px;
+    min-height: 150px;
+    background-color: #aace9b;
+    vertical-align: top;
+    background: rgb(83,158,125);
+    background: linear-gradient(0deg, rgba(83,158,125,1) 65%, rgba(255,255,255,0) 100%);
+    padding-top: 31px;
+}
+aside#sidebar a {
+    display: block;
+    line-height: 42px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+}
+aside#sidebar a:first-child {
+    text-transform: uppercase;
+}

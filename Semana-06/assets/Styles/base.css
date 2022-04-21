@@ -1,0 +1,40 @@
+/* Base content */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+    margin: 0;
+}
+main{
+    width: 100%;
+    padding-top: 80px;
+}
+section{
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto;
+	padding-top: 80px;
+}
+main section *{
+    text-align: center;
+}
+h1, h2, h3, h4, h5, p, a, span, textarea, input, legend, li{
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}	
+h1{
+    display: inline;
+    font-weight: 400;
+    font-size: 50px
+}
+h3 {
+    font-weight: 500;
+    font-size: 24px;
+}
+h4 {
+    font-weight: 500;
+    font-size: 28px;
+    margin: 5%;
+    margin-top: 3%
+}
+.flex-parent{
+	display: flex;
+}
